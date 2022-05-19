@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml, %3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23332c3e' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.container {
+    margin: auto;
+    width: 1340px;
+}
+/* scrollbutton */
+
+#scrollbutton {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    color: rgba(255, 255, 255, 0.568);
+    transition: 1s;
+}
+#scrollbutton:hover {
+    color: red;
+
+}
+
+/* ------------------header*/
+.header {
+    /* background-color: rgb(255, 255, 255); */
+    background-color: #fbfafe;
+    background-image: url("data:image/svg+xml, %3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dfdee0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    height: 84px;
+    width: 100%;
+}
+.header__inner {
+    display: flex;
+}
+.header__logo {
+    margin-left: 40px;
+    width: 300px;
+    height: 109px;
+}
+
+.header__icons {
+    background-image: url('art/iconB.png');
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.header__icon {
+    margin-top: 13px;
+    padding-left: 35px;
+}
+.header__icon img:hover {
+    background-color: #fbfafe;
+    background-image: url("data:image/svg+xml, %3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dfdee0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+/*---------------------- Nav */
+.menu__bar{
+    display: none;
+}
+.menu-nav {
+    position:relative;
+    height:50px;
+    font-size:14px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 180px;
+}
+.menu-nav a{
+    color: #240b0b;
+}
+.menu-nav ul {
+    list-style:none;
+}
+.menu-nav ul li {
+    float:left;
+    position:relative;
+
+}
+.menu-nav ul li a {
+    border-right:1px;
+    border-left:1px;
+    padding:17px;
+    display:block;
+    text-decoration:none;
+    text-align:center;
+
+}
+.menu-nav ul li ul {
+    display: none;
+}
+
+.menu-nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    min-width:200px;
+    left:0;
+    margin-top: -1px;
+}  
+.menu-nav ul li:hover ul li a {
+    display:block;
+    color:#ffffff;
+    width: 110px;
+    text-align: center;
+    border-top: 1px solid #ffffff41;
+    background-color: #00000060;
+    background-image: url("data:image/svg+xml, %3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dfdee0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.menu-nav a:hover {
+    color: #e0dda8;
+    border-bottom: 3px solid rgb(236, 240, 185);
+    padding-bottom: 5px;
+} 
+
+/* -------------------banner with wine bottle  */
+.banner__inner {
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.banner__background {
+    background-image: url('art/Enoturismo.jpeg');
+    width: 1000px;
+    height: 429px;
+    margin-top: 50px;
+    margin-left: 150px;
+    text-align: center;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.banner__background:hover {
+    background-image: url('art/night.jpeg');
+    transition: 1s;
+
+}
+
+h1 {
+    color: aliceblue;
+    margin-top: -500px;
+    text-align: center;
+}
+p {
+    color: aliceblue;
+    text-align: center;
+}
+.bottle {
+    width: 371px;
+    height: 560px;
+    margin-left: 750px;
+    margin-top: -20px;
+}
+
+
+.minibanner {
+    margin-top: 50px;
+    background-color: rgb(43, 43, 43);
+    height: 60px;
+
+}
+
+/* ---------------------- 3 photo */
+.gallery__main {
+    display: flex;
+    margin-top: 70px;
+    height: 400px;
+}
+.gallery__inner {
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-top: 40px;
+
+}
+
+.gallery__photo img {
+    width: 295px;
+    height: 286px;
+}
+
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 85px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 10px;
+    width: 120px;
+    height: 30px;
+    transition: 1s;
+}
+
+.button:hover {
+    background-color: rgba(248, 237, 140, 0.226);
+}
+.button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+/* ---------------------------INFORMATION about WINE DEGUSTATION*/
+
+.info__banner img {
+    width: 665px;
+    height: 448px;
+    margin-top: 150px;
+}
+
+.info__text {
+    color: aliceblue;
+    width: 429px;
+    height: 150px;
+    margin-top: 50px;
+    margin-right: 170px;
+}
+.info__p {
+    color: aliceblue;
+    width: 429px;
+    height: 150px;
+    margin-bottom: -450px;
+    border-style: solid;
+    border-color: aliceblue;
+    margin-left: 50px;
+    transition: 2s;
+}
+.info__p:hover {
+    background-color: rgba(250, 235, 215, 0.301);
+}
+.main-info__title {
+    color: aliceblue;
+    margin-top: 140px;
+    transition: 2s;
+    font-size: 22px;
+}
+.main-info__title:hover {
+    color: rgb(255, 231, 187);
+}
+.main-info__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -----------------------------Registration on Wine degustation */
+
+.reg__main {
+    border-style: solid;
+    border-color: #ffffff;
+    height: 350px;
+    width: 400px;
+    margin-left: 450px;
+    margin-top: 160px;
+}
+.reg__inner {
+    display: flex;
+}
+.reg__title {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.reg__text {
+    margin-bottom: 20px;
+}
+.action {
+    text-align: center;
+}
+.btn {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 10px;
+    width: 200px;
+    height: 50px;
+    transition: 1s;
+
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: rgba(248, 237, 140, 0.226);
+}
+.btn a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+}
+.box {
+    height: 30px;
+    width: 170px;
+}
+.select {
+    height: 35px;
+    width: 178px;
+    color: #808080;
+}
+/* -------------------------------------------footer */
+.footer {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml, %3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dfdee0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    height: 155px;
+    width: 100%;
+    margin-top: 80px;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+}
+.footer__text {
+    padding-top: 60px;
+}
+.design {
+    text-decoration: none;
+    color: #fbfafe;
+    font-size: 20px;
+    transition: 2s;
+}
+.design:hover {
+    color: #ffee00;
+}
+.footer__icon {
+    color: #fbfafe;
+    font-size: 25px;
+    padding-left: 320px;
+    padding-top: 120px;
+}
+
+/* new page Contacts */
+.triangle__main{
+    margin-left: 250px;
+    margin-top:50px ;
+    margin-bottom: 130px;
+}
+.triangle__back{
+    width: 232px;
+    height: 180px;
+    border-bottom: 1px solid #000;
+    overflow: hidden;
+}
+.triangle__top{
+    position: relative;
+    overflow: hidden;
+    transform: rotate(45deg) skew(10deg,10deg);
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+
+    width: 200px;
+    height: 200px;
+    margin: 81px 0 0 16px;
+}
+
+.triangle__img{
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background-image: url(art/wine2.png);
+    background-size: 100%;
+    background-position: center top;
+    transform: skew(-10deg,-10deg) rotate(-45deg);
+    transition: .3s;
+}
+.triangle__img:hover{
+    background-size: 90%;
+}
+
+.triangle__back2{
+    width: 232px;
+    height: 170px;
+    border-bottom: 1px solid #000;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.triangle__top2{
+    position: relative;
+    overflow: hidden;
+    transform: rotate(45deg) skew(10deg,10deg);
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+
+    width: 200px;
+    height: 200px;
+    margin: -100px 0 0 16px;
+}
+
+.triangle__img2{
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background-image: url(art/wine3.png);
+    background-size: 100%;
+    background-position: center top;
+    transform: skew(-10deg,-10deg) rotate(-45deg);
+    transition: .3s;
+}
+.triangle__img2:hover{
+    background-size: 90%;
+}
+
+.contact{
+    color: #fbfafe;
+    margin-top: 180px;
+    margin-left: 250px;
+    width: 400px;
+    height: 200px;
+}
+
+.map{
+    width: 350px;
+    height: 70px;
+    margin-left: 280px;
+    filter: grayscale(100%) invert(100%) contrast(100%);
+}
+
+.banner1{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml, %3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dfdee0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    height: 80px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+/* new page Gallery */
+.galleryimg{
+    margin: auto;
+}
+
+.gallery__main1{
+    background-image: url(art/gallery.png);
+    width: 1050px;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-left: 160px;
+    margin-top: 70px;
+}
+.gallery__inner1{
+    display: flex;
+}
+.text__gallery{
+    width: 600px;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 80px;
+    font-size: 15px;
+}
+.title__gallery{
+    color: #fbfafe;
+    padding-top: 120px;
+    padding-left: 80px;
+}
+.gallery__img{
+    width: 900px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 100px;
+}
+.gallery__img1 img{
+    width: 200px;
+    height: 200px;
+    padding-left: 5px;
+}
+
+
+/* popup */
+
+
+
+

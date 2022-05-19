@@ -1,0 +1,163 @@
+@media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
+        .header{
+            padding: 0 15px;
+            height:40px;
+        }
+        .header__logo img{
+            width:250px;
+            height:80px;
+        }
+        nav ul{
+            display:none;
+        }
+        .menu__bar{
+            display: block;
+        }
+        .menu__bar img{
+            width:40px;
+            margin-left: -30px;
+        }
+        .header__icons{
+            margin-left:-300px;
+            margin-top:250px;
+            background-image:none;
+        }
+        
+        .banner__background{
+        background-image: url('art/Enoturismo1.jpeg');
+        width: 346px;
+        height: 210px;
+        margin-top: 50px;
+        margin-left:15px;
+        text-align: center;
+        background-repeat: no-repeat;
+        transition: 1s;
+        }
+        .banner__background:hover {
+        background-image: url('art/enoturismo1.jpeg');
+        transition: 1s;
+    
+    }
+        .bottle {
+        width: 121px;
+        height: 200px;
+        margin-left: -270px;
+        margin-top: 40px;
+    }
+        h1 {
+        color: aliceblue;
+        margin-left:90px;
+        margin-top: -230px;
+        text-align: center;
+        font-size:20px;
+    }
+        .banner1{
+        background-color: #000000;
+        background-image: url("data:image/svg+xml, %3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dfdee0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+        height: 30px;
+        width: 100%;
+        margin-top: 100px;
+    }
+        .gallery__photo img {
+        width: 250px;
+        height: 250px;
+        margin-top: -90px;
+    }
+        .gallery__inner {
+        justify-content: space-between;
+        margin-left: 60px;
+    
+    }
+        .gallery__main {
+        display: table;
+        margin-top: 70px;
+        height: 400px;
+    }
+    
+        .banner1{
+        background-color: #000000;
+        background-image: url("data:image/svg+xml, %3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dfdee0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+        height: 30px;
+        width: 100%;
+        margin-top: 20px;
+    }
+        .button {
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 70px;
+       
+        padding-top: 10px;
+        width: 120px;
+        height: 30px;
+        transition: 1s;
+    }
+    .info__banner img {
+        width: 235px;
+        height: 148px;
+        margin-top: 40px;
+    }
+        
+       .info__text {
+        color: white;
+        width: 300px;
+        height: 150px;
+        margin-top: 30px;
+        margin-left: -1150px;
+            font-size:15px;
+    }
+    .info__p {
+        color: white;
+        width: 329px;
+        height: 165px;
+        margin-top: -30px;
+        border-style: solid;
+        border-color: aliceblue;
+        margin-left: -1150px;
+        transition: 2s;
+        font-size:15px;
+    }
+        .reg__main {
+        border-style: solid;
+        border-color: #ffffff;
+        height: 420px;
+        width: 320px;
+        margin-left: 25px;
+        margin-top: 360px;
+    }
+        .btn {
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 110px;
+        border-color: aliceblue;
+        border-style: solid;
+        border-width: 1px;
+        padding-top: 0px;
+        width: 100px;
+        height: 30px;
+        transition: 1s;
+    
+        text-transform: uppercase;
+        cursor: pointer;
+        outline: none;
+    }
+        .btn a {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+    }
+        .footer {
+        background-color: #000000;
+        background-image: url("data:image/svg+xml, %3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dfdee0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+        height: 120px;
+        width: 100%;
+        margin-top: 50px;
+    }
+        .footer__text {
+        font-size:10px;
+        padding-top: 40px;
+            margin-left: -380px;
+    }
+    }
+
+}

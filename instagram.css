@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container {
+    margin: auto;
+    width: 980px;
+}
+
+/* instagram header */
+
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    border-color: rgba(0, 0, 0, 0.144);
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+}
+.header__inner {
+    display: flex;
+}
+.header__logo {
+    margin-top: 20px;
+}
+.search__box {
+    margin-left: 230px;
+    margin-top: 12px;
+    height: 35px;
+    width: 250px;
+    border-style: none;
+    border-radius: 8px;
+    border-width: 1px;
+    background-color: rgba(221, 221, 221, 0.548);
+    font-size: 15px;
+}
+.nav {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.inst__nav {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 23px;
+    justify-content: space-between;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.767);
+}
+.header__pic {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.pic {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+
+}
+
+
+/* <!-- main information --> */
+.info__main {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 800px;
+    height: 200px;
+}
+.info__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 100px;
+}
+.icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+}
+.info__title {
+    padding-left: 120px;
+    padding-top: 15px;
+}
+.info__p {
+    font-size: 25px;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.596);
+}
+.buttons {
+    display: flex;
+    margin-left: 20px;
+}
+.button {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-color: rgba(180, 180, 180, 0.678);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 170px;
+    height: 20px;
+    transition: 1s;
+    padding: 5px 0;
+    text-align: center;
+}
+.button a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.822);
+}
+.button2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-color: rgb(101, 168, 255);
+    background-color: #45ACEF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 130px;
+    height: 20px;
+    transition: 1s;
+    padding: 5px 0;
+    text-align: center;
+}
+.button2 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.button3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-color: rgb(101, 168, 255);
+    background-color: #45ACEF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 32px;
+    height: 20px;
+    transition: 1s;
+    padding: 5px 0;
+    text-align: center;
+}
+.info__btn {
+    margin-left: 18px;
+    margin-top: 15px;
+}
+.fa-ellipsis {
+    color: black;
+    font-size: 20px;
+}
+.info__inner {
+    display: flex;
+}
+.info__text {
+    margin-left: 400px;
+    margin-bottom: 400px;
+}
+.btn-info{
+    margin-top: 35px;
+    color: rgb(17, 17, 17);
+}
+.btn-info1{
+    margin-top: 25px;
+}
+.btn-web{
+    margin-top: 5px;
+}
+.btn-web a{
+    color: rgb(46, 45, 133);
+    text-decoration: none;
+}
+.btn-info a{
+    color: rgb(19, 19, 19);
+    font-size: 15px;
+}
+
+/* <!-- instagram story --> */
+.story__main {
+    margin-left: 10px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.story__img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    justify-content: space-between;
+    margin-left: 40px;
+    border-style: double;
+    border-color: rgba(0, 0, 0, 0.178);
+
+}
+.title {
+    padding-left: 50px;
+
+}
+
+/* <!-- instagram navigation --> */
+.nav__a {
+    margin-left: 80px;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 40px;
+    color: rgb(110, 110, 110);
+    font-size: 14px;
+    margin-top: 20px;
+}
+.nav__b a {
+    margin-left: 10px;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 40px;
+    color: rgb(145, 145, 145);
+    font-size: 14px;
+
+}
+.navigation__main {
+    width: 950px;
+    margin-left: 22px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: rgb(172, 172, 172);
+    margin-top: 50px;
+}
+.cells{
+font-size: 11px;
+padding-top: 2px;
+}
+
+
+/* images */
+
+.photo__inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.photo__img img {
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
